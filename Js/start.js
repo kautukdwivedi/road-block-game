@@ -44,29 +44,29 @@ const lives = 4;
 
 //images 
 const background2 = new Image();
-background2.src = "/Images/background2.png";
+background2.src = "./Images/background2.png";
 
 const grass = new Image();
-grass.src = "/Images/grass.png";
+grass.src = "./Images/grass.png";
 
 const collisionImg = new Image();
-collisionImg.src = "/Images/collisions.png";
+collisionImg.src = "./Images/collisions.png";
 
 const turtle = new Image();
-turtle.src = "/Images/turtles.png";
+turtle.src = "./Images/turtles.png";
 let numberOfTurtles = 4;
 
 const car = new Image();
-car.src = "/Images/cars.png";
+car.src = "./Images/cars.png";
 let numberOfCars = 3;
 
 const log = new Image();
-log.src = "/Images/log.png";
+log.src = "./Images/log.png";
 
 const frogImg = new Image();
-frogImg.src = "/Images/frogs.png";
+frogImg.src = "./Images/frogs.png";
 
 //sounds
-const jumpS = new Audio('/sounds/jump.mp3');
+const jumpS = new Audio('./sounds/jump.mp3');
 
-const drop = new Audio('/sounds/water-droplet.mp3');
+const drop = new Audio('./sounds/water-droplet.mp3');
